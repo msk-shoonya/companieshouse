@@ -1,6 +1,9 @@
 # 🧭 Playwright + TypeScript automation for automationintesting.online
 
+![Playwright Tests](https://github.com/msk-shoonya/companieshouse/actions/workflows/ci.yml/badge.svg)
+
 This repository contains a pragmatic UI automation suite (plus basic non-functional checks) for the **Restful Booker Platform** demo site at [https://automationintesting.online/](https://automationintesting.online/).
+
 
 ## ✅ Highlights
 - **Playwright + TypeScript**
