@@ -1,0 +1,24 @@
+{
+  "name": "companieshouse",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Playwright + TypeScript automation suite for automationintesting.online",
+  "author": "Shoonya Madhanu",
+  "license": "ISC",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --grep @functional",
+    "test:a11y": "playwright test --grep @nonfunctional --grep accessibility",
+    "test:perf": "playwright test --grep @nonfunctional --grep performance",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit",
+    "codegen": "playwright codegen https://automationintesting.online/"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.11.0",
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.2",
+    "typescript": "^5.9.3"
+  }
+}
